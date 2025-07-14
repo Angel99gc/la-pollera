@@ -1,0 +1,150 @@
+{
+  "BEBIDAS": {
+    "CERVEZAS_NACIONALES": [
+      {
+        "name": "Imperial",
+        "price": "€1350",
+        "variants": ["Original", "Silver", "Light", "Ultra"],
+        "volume": "350ml"
+      },
+      {
+        "name": "Pilsen",
+        "price": "€1350",
+        "variants": ["Original", "6.0"],
+        "volume": "350ml"
+      }
+    ],
+    "CERVEZAS_PREMIUM": [
+      {
+        "name": "Bavaria",
+        "price": "€1500",
+        "variants": ["Master", "Gold", "Light"],
+        "volume": "350ml"
+      },
+      {
+        "name": "Heineken",
+        "price": "€1500",
+        "variants": ["Original", "Cero"],
+        "volume": "350ml"
+      },
+      {
+        "name": "Sol",
+        "price": "€1500"
+      }
+    ],
+    "COCTELES_PREPARADOS": [
+      {
+        "name": "Smirnoff",
+        "price": "¢1800",
+        "variants": ["Guaraná", "Black", "Red"],
+        "volume": "355ml"
+      },
+      {
+        "name": "Adán y Eva",
+        "price": "€1500",
+        "variants": ["Frutos Rojos", "Maracuyá Piña", "Gin & Tonic"],
+        "volume": "355ml"
+      },
+      {
+        "name": "Bamboo",
+        "price": "€1500",
+        "variants": ["Daiquiri", "Ron Cola"],
+        "volume": "350ml"
+      }
+    ],
+    "LIGA_DE_LA_CASA": [
+      {
+        "name": "Flor de Caña",
+        "price": "€1200"
+      },
+      {
+        "name": "Pepsi",
+        "price": "€1200",
+        "variants": ["Original"],
+        "volume": "350ml"
+      }
+    ],
+    "SANGRÍA_Y_VINO_DE_LA_CASA": [
+      {
+        "name": "Copa de Sangría",
+        "price": "€1500"
+      },
+      {
+        "name": "Copa de vino"
+      },
+      {
+        "name": "Contenda",
+        "price": "€2000"
+      },
+      {
+        "name": "BALDAZO",
+        "offer": "6X5",
+        "price": "¢6750"
+      }
+    ],
+    "REFRESCOS": [
+      {
+        "name": "Pepsi",
+        "price": "€1000",
+        "variants": ["Original"],
+        "volume": "350ml"
+      },
+      {
+        "name": "Tropical",
+        "price": "€1000",
+        "variants": [
+          "Blanco Arándanos",
+          "Blanco Frutas Tropicales",
+          "Melocotón",
+          "Frutas"
+        ],
+        "volume": "355ml"
+      },
+      {
+        "name": "Pepsi",
+        "price": "€1200",
+        "variants": ["Original"],
+        "volume": "600ml"
+      },
+      {
+        "name": "7 UP",
+        "price": "€1200",
+        "variants": ["Original"],
+        "volume": "600ml"
+      },
+      {
+        "name": "H2OH",
+        "price": "€1200",
+        "variants": ["Lima Limón", "Toronja"],
+        "volume": "600ml"
+      },
+      {
+        "name": "Maximalta",
+        "price": "€1000",
+        "variants": ["Original"],
+        "volume": "350ml"
+      },
+      {
+        "name": "Vitaloe",
+        "price": "€1500"
+      },
+      {
+        "name": "Maxxxx Energy",
+        "price": "€1500",
+        "variants": ["Guaraná"],
+        "volume": "350ml"
+      },
+      {
+        "name": "Agua Cristal",
+        "price": "€1200",
+        "volume": "600ml"
+      }
+    ],
+    "TRAGO_DE_LA_CASA": [
+      {
+        "name": "Old Parr",
+        "price": "€2000"
+      }
+    ]
+  }
+}

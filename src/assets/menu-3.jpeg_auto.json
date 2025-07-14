@@ -1,0 +1,86 @@
+{
+  "menu": [
+    {
+      "category": "BOCAS",
+      "items": [
+        { "name": "Quesadilla (Pollo o Carne)", "price": "₡2500" },
+        { "name": "Nachos (Pollo, Carne o Mixtos)", "price": "₡2800" },
+        { "name": "Burrito Batata", "price": "₡2000" },
+        { "name": "Patrulla", "price": "₡3000" },
+        { "name": "Chalupa de Carne", "price": "₡2500" },
+        { "name": "Orden de Papas", "price": "₡2000" },
+        { "name": "Tacos", "price": "₡2500" },
+        { "name": "Papanachos", "price": "₡3500" },
+        { "name": "Salchipapas", "price": "₡2500" },
+        { "name": "Chicharrones de Carne", "price": "₡3500" },
+        { "name": "Mexicana", "price": "₡3000" },
+        { "name": "Carne en Salsa", "price": "₡3000" },
+        { "name": "Costilla Ahumada", "price": "₡3200" },
+        { "name": "Ceviche de Pescado", "price": "₡3000" },
+        { "name": "Boca de Pollo", "price": "₡1500" },
+        { "name": "Porción de Pollo", "price": "₡2000" },
+        { "name": "Gallo de Pescado", "price": "₡2500" },
+        { "name": "Yuquitas", "price": "₡2000" },
+        { "name": "Chifrijo", "price": "₡3500" },
+        { "name": "Orden de Patacones", "price": "₡2000" },
+        { "name": "Dedos de Pescado", "price": "₡3000" },
+        { "name": "Nuggets de Pollo", "price": "₡3000" },
+        { "name": "Hamburguesa (Pollo o Carne)", "price": "₡2800" },
+        { "name": "Hamburguesa La Pollera", "price": "₡3800" },
+        { "name": "Surtida Pequeña", "price": "₡6000" },
+        { "name": "Surtida Grande", "price": "₡12000" }
+      ]
+    },
+    {
+      "category": "PESCADO/FISH DISHES",
+      "items": [
+        { "name": "Corvina a la Plancha (Grilled Corvina)", "price": "₡4900" },
+        { "name": "Corvina Empanizada (Breaded Corvina)", "price": "₡4900" },
+        { "name": "Corvina en Salsa de Mariscos (Seafood Corvina Sauce)", "price": "₡6500" },
+        { "name": "Corvina al Ajillo (Corvina with Garlic)", "price": "₡4900" },
+        { "name": "Camarones Empanizados (Breaded Shrimps)", "price": "₡4900" },
+        { "name": "Camarones al Ajillo (Garlic Shrimps)", "price": "₡4900" },
+        { "name": "Ceviche de Camarón (Shrimp Ceviche)", "price": "₡5000" },
+        { "name": "Ceviche de Pescado (Fish Ceviche)", "price": "₡4000" },
+        { "name": "Ceviche Mixto (Mixed Ceviche)", "price": "₡4800" },
+        { "name": "Mariscada al Ajillo (Seafood with Garlic)", "price": "₡4800" },
+        { "name": "Mariscada en Salsa Blanca (More Shrimps with Rice)", "price": "₡5000" }
+      ]
+    },
+    {
+      "category": "POLLO/CHICHEN",
+      "items": [
+        { "name": "Pollo a la Plancha (Grilled Chicken)", "price": "₡4500" },
+        { "name": "Pollo Empanizado (Breaded Chicken)", "price": "₡4500" },
+        { "name": "Pollo en Salsa Blanca (Chicken in White Sauce)", "price": "₡4700" },
+        { "name": "Pollo en Salsa Jalapeña (Chicken in Jalapeña Sauce)", "price": "₡4700" },
+        { "name": "Fajitas a la Plancha (Grilled Fajitas)", "price": "₡4000" },
+        { "name": "Fajitas Empanizadas (Breaded Fajitas)", "price": "₡4000" },
+        { "name": "Fajitas Mixtas (Mixed Fajitas)", "price": "₡4500" },
+        { "name": "Pollo a la Barbacoa (BBQ Chicken)", "price": "₡4700" },
+        { "name": "Cordon Bleu", "price": "₡4700" },
+        { "name": "Alitas (A la BBQ o Mostaza Miel)", "price": "₡4500" }
+      ],
+      "notes": [
+        "Incluye 2 acompañamientos: Arroz, Puré, Papas Fritas, Ensalada Verde o Vegetales",
+        "Choose 2 accompaniments: Rice, Pure, Fried Potato, Green Salad or Vegetables"
+      ]
+    },
+    {
+      "category": "PASTAS/SPAGHETTI",
+      "items": [
+        { "name": "Spaghetti Bolognesa", "price": "₡4000" },
+        { "name": "Spaghetti Alfredo", "price": "₡4000" },
+        { "name": "Spaghetti Marinara", "price": "₡4500" },
+        { "name": "Spaghetti al Ajillo (Spaghetti with Garlic)", "price": "₡3500" }
+      ]
+    },
+    {
+      "category": "POSTRES",
+      "items": [
+        { "name": "Crepas (Crepes)", "price": "₡2000" },
+        { "name": "Copa de helado (Ice cream cup)", "price": "₡1000" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "menu": [
+    {
+      "category": "ARROCES/RICES",
+      "items": [
+        {
+          "name": "Arroz con Pollo",
+          "price": "€3800",
+          "description": "Chicken Rice"
+        },
+        {
+          "name": "Arroz Cantonés",
+          "price": "€4200",
+          "description": "Cantonese Rice"
+        },
+        {
+          "name": "Arroz con Cerdo",
+          "price": "€3600",
+          "description": "Pork Fried Rice"
+        },
+        {
+          "name": "Arroz con Mariscos",
+          "price": "¢4200",
+          "description": "Seafood Rice"
+        },
+        {
+          "name": "Arroz con Camarones",
+          "price": "€4800",
+          "description": "Shrimps Fried Rice"
+        },
+        {
+          "name": "Arroz con Calamares",
+          "price": "€3800",
+          "description": "Rice with Squid"
+        },
+        {
+          "name": "Camarones con Arroz",
+          "price": "€6200",
+          "description": "More Shrimps with Rice"
+        }
+      ]
+    },
+    {
+      "category": "CASADO/TYPICAL FOOD",
+      "items": [
+        {
+          "name": "Bistec",
+          "price": "€3500",
+          "description": "Beef Steak"
+        },
+        {
+          "name": "Pollo",
+          "price": "€3500",
+          "description": "Chicken"
+        },
+        {
+          "name": "Chuleta",
+          "price": "$3500",
+          "description": "Pork Chop"
+        },
+        {
+          "name": "Pescado",
+          "price": "$3500",
+          "description": "Fish"
+        },
+        {
+          "name": "Carne en Salsa",
+          "price": "€3500",
+          "description": "Meat in Sauce"
+        }
+      ]
+    },
+    {
+      "special_offers": [
+        {
+          "description": "Ahorrá c600",
+          "offer_name": "EL DÚO PERFECTO",
+          "items": [
+            "Hamburguesa",
+            "Pepsi"
+          ],
+          "price": "$3200"
+        }
+      ]
+    },
+    {
+      "category": "SOPAS/SOUPS",
+      "items": [
+        {
+          "name": "Sopa Negra",
+          "price": "€3000",
+          "description": "Black Soup"
+        },
+        {
+          "name": "Sopa de Pollo",
+          "price": "€3000",
+          "description": "Chicken Soup"
+        },
+        {
+          "name": "Sopa Ranchera",
+          "price": "€4000",
+          "description": "Ranchera Soup"
+        },
+        {
+          "name": "Sopa Azteca",
+          "price": "€3500",
+          "description": "Aztec Soup"
+        },
+        {
+          "name": "Sopa de Mariscos",
+          "price": "€4000",
+          "description": "Seafood Soup"
+        }
+      ]
+    },
+    {
+      "category": "CARNES ROJAS/RED MEATS",
+      "items": [
+        {
+          "name": "Churrasco",
+          "price": "€7000",
+          "description": "Beef Steak"
+        },
+        {
+          "name": "Fajitas",
+          "price": "€4800"
+        },
+        {
+          "name": "Lomo a la Plancha",
+          "price": "€6000",
+          "description": "Grilled Loin"
+        },
+        {
+          "name": "Lomo en Salsa Jalapeña",
+          "price": "c6500",
+          "description": "Loin in Jalapeña Sauce"
+        },
+        {
+          "name": "Lomo a la Parmesana",
+          "price": "€6500",
+          "description": "Parmesan Loin",
+          "notes": [
+            "Incluye 2 acompañamientos: Arroz, Puré, Papas Fritas, Ensalada Verde o Vegetales",
+            "Choose 2 accompaniments: Rice, Pure, Fried Potato, Green Salad or Vegetables"
+          ]
+        }
+      ]
+    },
+    {
+      "special_offers": [
+        {
+          "description": "Ahorrá c700",
+          "offer_name": "PEDÍ EL MEJOR ALMUERZO",
+          "items": [
+            "Casado",
+            "Tropical"
+          ],
+          "price": "$3800"
+        }
+      ]
+    }
+  ]
+}
