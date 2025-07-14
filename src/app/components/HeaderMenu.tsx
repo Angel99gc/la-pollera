@@ -5,10 +5,11 @@ const HeaderMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
 
+  // TODO: Redirecciones correctas(href)
   const navigationLinks = [
-    { name: "Home", href: "#" },
-    { name: "Products", href: "#" },
-    { name: "About", href: "#" }
+    { name: "Inicio", href: "#" },
+    { name: "Productos", href: "#" },
+    { name: "Contáctenos", href: "#" }
   ];
 
   const handleSearchSubmit = (e:any) => {
@@ -36,14 +37,14 @@ const HeaderMenu = () => {
           {/* Logo Section */}
           <div className="flex items-center">
             <img
-              src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9"
+              src="logo.svg"
               alt="Company Logo"
               className="h-8 w-8 object-contain"
               onError={(e:any) => {
                 e.target.src = "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9";
               }}
             />
-            <span className="ml-2 text-xl font-bold text-gray-900">Brand</span>
+            <span className="ml-2 text-xl font-bold text-gray-900">La Pollera</span>
           </div>
 
           {/* Desktop Search */}

@@ -1,0 +1,74 @@
+{
+  "menu": [
+    {
+      "category": "ARROCES/RICES",
+      "items": [
+        {
+          "name": "Arroz con Pollo",
+          "price": "€3800",
+          "description": "Chicken Rice"
+        },
+        {
+          "name": "Arroz Cantonés",
+          "price": "€4200",
+          "description": "Cantonese Rice"
+        },
+        {
+          "name": "Arroz con Cerdo",
+          "price": "€3600",
+          "description": "Pork Fried Rice"
+        },
+        {
+          "name": "Arroz con Mariscos",
+          "price": "¢4200",
+          "description": "Seafood Rice"
+        },
+        {
+          "name": "Arroz con Camarones",
+          "price": "€4800",
+          "description": "Shrimps Fried Rice"
+        },
+        {
+          "name": "Arroz con Calamares",
+          "price": "€3800",
+          "description": "Rice with Squid"
+        },
+        {
+          "name": "Camarones con Arroz",
+          "price": "€6200",
+          "description": "More Shrimps with Rice"
+        }
+      ]
+    },
+    {
+      "category": "CASADO/TYPICAL FOOD",
+      "items": [
+        {
+          "name": "Bistec",
+          "price": "€3500",
+          "description": "Beef Steak"
+        },
+        {
+          "name": "Pollo",
+          "price": "€3500",
+          "description": "Chicken"
+        },
+        {
+          "name": "Chuleta",
+          "price": "$3500",
+          "description": "Pork Chop"
+        },
+        {
+          "name": "Pescado",
+          "price": "$3500",
+          "description": "Fish"
+        },
+        {
+          "name": "Carne en Salsa",
+          "price": "€3500",
+          "description": "Meat in Sauce"
+        }
+      ]
+    }
+  ]
+}
