@@ -12,7 +12,7 @@ const HeaderMenu = () => {
     { name: "Contáctenos", href: "#" }
   ];
 
-  const handleSearchSubmit = (e:any) => {
+  const handleSearchSubmit = (e: any) => {
     e.preventDefault();
     console.log("Search query:", searchQuery);
   };
@@ -32,6 +32,15 @@ const HeaderMenu = () => {
                 {link.name}
               </a>
             ))}
+
+            {/* TODO: FALTA DIFERENTES IDIOMAS */}
+            <a
+              key={'idioma'}
+              href={''}
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+            >
+              Idioma
+            </a>
           </nav>
 
           {/* Logo Section */}
@@ -40,7 +49,7 @@ const HeaderMenu = () => {
               src="logo.svg"
               alt="Company Logo"
               className="h-8 w-8 object-contain"
-              onError={(e:any) => {
+              onError={(e: any) => {
                 e.target.src = "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9";
               }}
             />
@@ -54,7 +63,7 @@ const HeaderMenu = () => {
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search..."
+                placeholder="Buscar..."
                 className="w-64 px-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
               <button
@@ -83,17 +92,15 @@ const HeaderMenu = () => {
       >
         {/* Overlay */}
         <div
-          className={`fixed inset-0 bg-black transition-opacity duration-300 ${
-            isOpen ? "opacity-50" : "opacity-0"
-          }`}
+          className={`fixed inset-0 bg-black transition-opacity duration-300 ${isOpen ? "opacity-50" : "opacity-0"
+            }`}
           onClick={() => setIsOpen(false)}
         />
 
         {/* Sidebar */}
         <div
-          className={`fixed inset-y-0 right-0 w-64 bg-white shadow-xl transform transition-transform duration-300 ease-in-out ${
-            isOpen ? "translate-x-0" : "translate-x-full"
-          }`}
+          className={`fixed inset-y-0 right-0 w-64 bg-white shadow-xl transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"
+            }`}
         >
           <div className="p-6">
             <div className="flex items-center justify-between mb-8">

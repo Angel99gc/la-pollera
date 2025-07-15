@@ -1,7 +1,15 @@
 import { useState } from 'react';
 import HeaderMenu from '../components/HeaderMenu';
-import menuJson from '../../assets/menu-1.jpeg_auto.json'
-import { FiShare2, FiShoppingCart, FiStar } from 'react-icons/fi';
+import menuJson from '../../assets/menu.json'
+import { FiImage, FiShare2, FiShoppingCart, FiStar } from 'react-icons/fi';
+import ProductCard from '../components/ProductCard';
+import { BsArrowRight } from 'react-icons/bs';
+
+interface Product {
+  name: string;
+  price: string;
+  image: string;
+}
 
 export const MenuPage = () => {
 
@@ -17,15 +25,13 @@ export const MenuPage = () => {
   //     return 0;
   //   });
   // };
-  const toggleProductSelection = (product: any) => {
-    setSelectedProducts((prev: any) =>
-      prev.find((p: any) => p.id === product.id)
-        ? prev.filter((p: any) => p.id !== product.id)
-        : [...prev, product]
-    );
+  const toggleProductSelection = (product: Product) => {
+    setSelectedProduct((!!selectedProduct && selectedProduct.name === product.name) ? undefined : product);
   };
-
-  const [selectedProducts, setSelectedProducts] = useState([]);
+  const onClose = () => {
+    setSelectedProduct(undefined);
+  };
+  const [selectedProduct, setSelectedProduct] = useState<Product | undefined>(undefined);
 
 
   // const products:any = {
@@ -55,58 +61,103 @@ export const MenuPage = () => {
   //     { id: 15, name: "Self-Help Book", price: 24.99, image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c" }
   //   ]
   // };
-  menuJson.menu.map(({ category, items }: any) => console.log(category, items))
+  // menuJson.menu.map(({ category, items }: any) => console.log(category, items))
+
+
 
   return (
     <>
       <HeaderMenu />
       <div>
 
-        {/* Product Sections */}
-        <main className="max-w-7xl mx-auto px-4 py-8">
-          {menuJson.menu.map(({ category, items }: any) => (
-            <section
-              key={category}
-              className="mb-12"
-            >
-              {
-                !!category &&
-                <>
-                  <h2 className="text-2xl font-bold mb-6 capitalize">{category}</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {items.map((product: any) => (
-                      <div
-                        key={product.name}
-                        className={`bg-white rounded-lg shadow-md overflow-hidden transition-transform cursor-pointer hover:scale-105 ${selectedProducts.find((p: any) => p.id === product.id) ? "ring-2 ring-blue-500" : ""}`}
-                      >
-                        <img
-                          // TODO: AGREGAR IMAGE
-                          src={product.image}
-                          alt={product.name}
-                          className="w-full h-48 object-cover"
-                          loading="lazy"
-                        />
-                        <div className="p-4">
-                          <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
-                          <div className="flex items-center justify-between">
-                            {/* TODO: COLONES O DOLARES */}
-                            <span className="text-xl font-bold text-blue-600">${product.price}</span>
-                            <button
-                              onClick={() => toggleProductSelection(product)}
-                              className={`px-4 py-2 rounded-full transition-colors ${selectedProducts.find((p: any) => p.name === product.name) ? "bg-blue-500 text-white" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}
-                            >
-                              {selectedProducts.find((p: any) => p.name === product.name) ? "Selected" : "Select"}
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </>
+        <ProductCard product={selectedProduct} onClose={onClose} />
 
-              }
-            </section>
-          ))}
+        {/* Product Sections */}
+        <main className="max-w-7xl mx-auto px-4">
+          {/* Hero Section */}
+          <section className="relative h-screen flex items-center justify-center overflow-hidden">
+            <div className="absolute inset-0 z-0">
+              <img
+                src="https://images.unsplash.com/photo-1616348436168-de43ad0db179"
+                alt="Product Background"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50" />
+            </div>
+
+            <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
+              <h1 className="text-4xl sm:text-6xl font-bold text-white mb-6 tracking-tight">
+                The Future of Technology is Here
+              </h1>
+              <p className="text-xl sm:text-2xl text-gray-200 mb-8">
+                Experience innovation like never before
+              </p>
+              <button className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all hover:bg-blue-700 hover:scale-105 flex items-center mx-auto">
+                Pre-order Now <BsArrowRight className="ml-2" />
+              </button>
+            </div>
+          </section>
+
+          {
+            menuJson.menu.map(({ category, items }: any) => (
+              <section
+                key={category}
+                className="max-w-7xl mx-auto px-4 py-8 mb-12"
+              >
+                {
+                  !!category &&
+                  <>
+                    <h2 className="text-2xl font-bold mb-6 capitalize">{category}</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {
+                        items.map((product: Product) => (
+                          <div
+                            key={product.name}
+                            onClick={() => toggleProductSelection(product)}
+
+                            className={`bg-white rounded-lg shadow-md overflow-hidden transition-transform cursor-pointer hover:scale-105 ${(!!selectedProduct && selectedProduct.name === product.name) ? "ring-2 ring-blue-500" : ""}`}
+                          >
+                            {
+                              product.image === "" ?
+
+                                <div className='flex w-full h-48 items-center'>
+                                  <FiImage
+                                    className="w-full h-32 object-cover"
+                                  />
+                                </div>
+                                : <img
+                                  src={product.image}
+                                  alt={product.name}
+                                  className="w-full h-48 object-cover"
+                                  loading="lazy"
+                                />
+
+                            }
+                            <div className="p-4">
+                              <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
+                              <div className="flex items-center justify-between">
+                                {/* TODO: COLONES O DOLARES */}
+                                <span className="text-xl font-bold text-blue-600">{product.price}</span>
+                                {/* <button
+                                  onClick={() => toggleProductSelection(product)}
+                                  className={`px-4 py-2 rounded-full transition-colors ${(!!selectedProduct && selectedProduct.name === product.name) ? "bg-blue-500 text-white" : "bg-gray-100 text-gray-600 hover:bg-gray-200"}`}
+                                >
+                                  {!!selectedProduct ? "Selected" : "Select"}
+                                </button> */}
+                              </div>
+                            </div>
+                          </div>
+                        ))
+                      }
+                    </div>
+                  </>
+
+                }
+              </section>
+            ))
+          }
+          {/* Section Bebidas. */}
 
           {/* Footer */}
           <footer className="bg-gray-500 text-white py-12 px-4 sm:px-6 lg:px-8">
@@ -120,12 +171,12 @@ export const MenuPage = () => {
                 <div className="flex space-x-4">
                   <FiShare2 className="w-6 h-6 cursor-pointer hover:text-blue-400" />
                   <FiStar className="w-6 h-6 cursor-pointer hover:text-blue-400" />
-                  <FiShoppingCart className="w-6 h-6 cursor-pointer hover:text-blue-400" />
+                  {/* <FiShoppingCart className="w-6 h-6 cursor-pointer hover:text-blue-400" /> */}
                 </div>
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-4">Contáctenos</h3>
-                
+
                 {/* FALTA LOGO */}
                 <p className="text-gray-400">support@example.com</p>
                 <p className="text-gray-400">2478-0213</p>
@@ -136,12 +187,7 @@ export const MenuPage = () => {
           </footer>
 
         </main>
-
-
-
-
-
-      </div>
+      </div >
 
     </>
   )

@@ -5,38 +5,45 @@
       "items": [
         {
           "name": "Arroz con Pollo",
-          "price": "€3800",
-          "description": "Chicken Rice"
+          "price": "¢3800",
+          "description": "Chicken Rice",
+          "image": ""
         },
         {
           "name": "Arroz Cantonés",
-          "price": "€4200",
-          "description": "Cantonese Rice"
+          "price": "¢4200",
+          "description": "Cantonese Rice",
+          "image": ""
         },
         {
           "name": "Arroz con Cerdo",
-          "price": "€3600",
-          "description": "Pork Fried Rice"
+          "price": "¢3600",
+          "description": "Pork Fried Rice",
+          "image": ""
         },
         {
           "name": "Arroz con Mariscos",
           "price": "¢4200",
-          "description": "Seafood Rice"
+          "description": "Seafood Rice",
+          "image": ""
         },
         {
           "name": "Arroz con Camarones",
-          "price": "€4800",
-          "description": "Shrimps Fried Rice"
+          "price": "¢4800",
+          "description": "Shrimps Fried Rice",
+          "image": ""
         },
         {
           "name": "Arroz con Calamares",
-          "price": "€3800",
-          "description": "Rice with Squid"
+          "price": "¢3800",
+          "description": "Rice with Squid",
+          "image": ""
         },
         {
           "name": "Camarones con Arroz",
-          "price": "€6200",
-          "description": "More Shrimps with Rice"
+          "price": "¢6200",
+          "description": "More Shrimps with Rice",
+          "image": ""
         }
       ]
     },
@@ -45,30 +52,543 @@
       "items": [
         {
           "name": "Bistec",
-          "price": "€3500",
-          "description": "Beef Steak"
+          "price": "¢3500",
+          "description": "Beef Steak",
+          "image": ""
         },
         {
           "name": "Pollo",
-          "price": "€3500",
-          "description": "Chicken"
+          "price": "¢3500",
+          "description": "Chicken",
+          "image": ""
         },
         {
           "name": "Chuleta",
-          "price": "$3500",
-          "description": "Pork Chop"
+          "price": "¢3500",
+          "description": "Pork Chop",
+          "image": ""
         },
         {
           "name": "Pescado",
-          "price": "$3500",
-          "description": "Fish"
+          "price": "¢3500",
+          "description": "Fish",
+          "image": ""
         },
         {
           "name": "Carne en Salsa",
-          "price": "€3500",
-          "description": "Meat in Sauce"
+          "price": "¢3500",
+          "description": "Meat in Sauce",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "BOCAS",
+      "items": [
+        {
+          "name": "Quesadilla (Pollo o Carne)",
+          "price": "₡2500",
+          "image": ""
+        },
+        {
+          "name": "Nachos (Pollo, Carne o Mixtos)",
+          "price": "₡2800",
+          "image": ""
+        },
+        {
+          "name": "Burrito Batata",
+          "price": "₡2000",
+          "image": ""
+        },
+        {
+          "name": "Patrulla",
+          "price": "₡3000",
+          "image": ""
+        },
+        {
+          "name": "Chalupa de Carne",
+          "price": "₡2500",
+          "image": ""
+        },
+        {
+          "name": "Orden de Papas",
+          "price": "₡2000",
+          "image": ""
+        },
+        {
+          "name": "Tacos",
+          "price": "₡2500",
+          "image": ""
+        },
+        {
+          "name": "Papanachos",
+          "price": "₡3500",
+          "image": ""
+        },
+        {
+          "name": "Salchipapas",
+          "price": "₡2500",
+          "image": ""
+        },
+        {
+          "name": "Chicharrones de Carne",
+          "price": "₡3500",
+          "image": ""
+        },
+        {
+          "name": "Mexicana",
+          "price": "₡3000",
+          "image": ""
+        },
+        {
+          "name": "Carne en Salsa",
+          "price": "₡3000",
+          "image": ""
+        },
+        {
+          "name": "Costilla Ahumada",
+          "price": "₡3200",
+          "image": ""
+        },
+        {
+          "name": "Ceviche de Pescado",
+          "price": "₡3000",
+          "image": ""
+        },
+        {
+          "name": "Boca de Pollo",
+          "price": "₡1500",
+          "image": ""
+        },
+        {
+          "name": "Porción de Pollo",
+          "price": "₡2000",
+          "image": ""
+        },
+        {
+          "name": "Gallo de Pescado",
+          "price": "₡2500",
+          "image": ""
+        },
+        {
+          "name": "Yuquitas",
+          "price": "₡2000",
+          "image": ""
+        },
+        {
+          "name": "Chifrijo",
+          "price": "₡3500",
+          "image": ""
+        },
+        {
+          "name": "Orden de Patacones",
+          "price": "₡2000",
+          "image": ""
+        },
+        {
+          "name": "Dedos de Pescado",
+          "price": "₡3000",
+          "image": ""
+        },
+        {
+          "name": "Nuggets de Pollo",
+          "price": "₡3000",
+          "image": ""
+        },
+        {
+          "name": "Hamburguesa (Pollo o Carne)",
+          "price": "₡2800",
+          "image": ""
+        },
+        {
+          "name": "Hamburguesa La Pollera",
+          "price": "₡3800",
+          "image": ""
+        },
+        {
+          "name": "Surtida Pequeña",
+          "price": "₡6000",
+          "image": ""
+        },
+        {
+          "name": "Surtida Grande",
+          "price": "₡12000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "PESCADO/FISH DISHES",
+      "items": [
+        {
+          "name": "Corvina a la Plancha (Grilled Corvina)",
+          "price": "₡4900",
+          "image": ""
+        },
+        {
+          "name": "Corvina Empanizada (Breaded Corvina)",
+          "price": "₡4900",
+          "image": ""
+        },
+        {
+          "name": "Corvina en Salsa de Mariscos (Seafood Corvina Sauce)",
+          "price": "₡6500",
+          "image": ""
+        },
+        {
+          "name": "Corvina al Ajillo (Corvina with Garlic)",
+          "price": "₡4900",
+          "image": ""
+        },
+        {
+          "name": "Camarones Empanizados (Breaded Shrimps)",
+          "price": "₡4900",
+          "image": ""
+        },
+        {
+          "name": "Camarones al Ajillo (Garlic Shrimps)",
+          "price": "₡4900",
+          "image": ""
+        },
+        {
+          "name": "Ceviche de Camarón (Shrimp Ceviche)",
+          "price": "₡5000",
+          "image": ""
+        },
+        {
+          "name": "Ceviche de Pescado (Fish Ceviche)",
+          "price": "₡4000",
+          "image": ""
+        },
+        {
+          "name": "Ceviche Mixto (Mixed Ceviche)",
+          "price": "₡4800",
+          "image": ""
+        },
+        {
+          "name": "Mariscada al Ajillo (Seafood with Garlic)",
+          "price": "₡4800",
+          "image": ""
+        },
+        {
+          "name": "Mariscada en Salsa Blanca (More Shrimps with Rice)",
+          "price": "₡5000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "POLLO/CHICHEN",
+      "items": [
+        {
+          "name": "Pollo a la Plancha (Grilled Chicken)",
+          "price": "₡4500",
+          "image": ""
+        },
+        {
+          "name": "Pollo Empanizado (Breaded Chicken)",
+          "price": "₡4500",
+          "image": ""
+        },
+        {
+          "name": "Pollo en Salsa Blanca (Chicken in White Sauce)",
+          "price": "₡4700",
+          "image": ""
+        },
+        {
+          "name": "Pollo en Salsa Jalapeña (Chicken in Jalapeña Sauce)",
+          "price": "₡4700",
+          "image": ""
+        },
+        {
+          "name": "Fajitas a la Plancha (Grilled Fajitas)",
+          "price": "₡4000",
+          "image": ""
+        },
+        {
+          "name": "Fajitas Empanizadas (Breaded Fajitas)",
+          "price": "₡4000",
+          "image": ""
+        },
+        {
+          "name": "Fajitas Mixtas (Mixed Fajitas)",
+          "price": "₡4500",
+          "image": ""
+        },
+        {
+          "name": "Pollo a la Barbacoa (BBQ Chicken)",
+          "price": "₡4700",
+          "image": ""
+        },
+        {
+          "name": "Cordon Bleu",
+          "price": "₡4700",
+          "image": ""
+        },
+        {
+          "name": "Alitas (A la BBQ o Mostaza Miel)",
+          "price": "₡4500",
+          "image": ""
+        }
+      ],
+      "notes": [
+        "Incluye 2 acompañamientos: Arroz, Puré, Papas Fritas, Ensalada Verde o Vegetales",
+        "Choose 2 accompaniments: Rice, Pure, Fried Potato, Green Salad or Vegetables"
+      ]
+    },
+    {
+      "category": "PASTAS/SPAGHETTI",
+      "items": [
+        {
+          "name": "Spaghetti Bolognesa",
+          "price": "₡4000",
+          "image": ""
+        },
+        {
+          "name": "Spaghetti Alfredo",
+          "price": "₡4000",
+          "image": ""
+        },
+        {
+          "name": "Spaghetti Marinara",
+          "price": "₡4500",
+          "image": ""
+        },
+        {
+          "name": "Spaghetti al Ajillo (Spaghetti with Garlic)",
+          "price": "₡3500",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "POSTRES",
+      "items": [
+        {
+          "name": "Crepas (Crepes)",
+          "price": "₡2000",
+          "image": ""
+        },
+        {
+          "name": "Copa de helado (Ice cream cup)",
+          "price": "₡1000",
+          "image": ""
         }
       ]
     }
-  ]
+  ],
+  "BEBIDAS": {
+    "CERVEZAS_NACIONALES": [
+      {
+        "name": "Imperial",
+        "price": "€1350",
+        "variants": [
+          "Original",
+          "Silver",
+          "Light",
+          "Ultra"
+        ],
+        "volume": "350ml",
+        "image": ""
+      },
+      {
+        "name": "Pilsen",
+        "price": "€1350",
+        "variants": [
+          "Original",
+          "6.0"
+        ],
+        "volume": "350ml",
+        "image": ""
+      }
+    ],
+    "CERVEZAS_PREMIUM": [
+      {
+        "name": "Bavaria",
+        "price": "€1500",
+        "variants": [
+          "Master",
+          "Gold",
+          "Light"
+        ],
+        "volume": "350ml",
+        "image": ""
+      },
+      {
+        "name": "Heineken",
+        "price": "€1500",
+        "variants": [
+          "Original",
+          "Cero"
+        ],
+        "volume": "350ml",
+        "image": ""
+      },
+      {
+        "name": "Sol",
+        "price": "€1500",
+        "image": ""
+      }
+    ],
+    "COCTELES_PREPARADOS": [
+      {
+        "name": "Smirnoff",
+        "price": "¢1800",
+        "variants": [
+          "Guaraná",
+          "Black",
+          "Red"
+        ],
+        "volume": "355ml",
+        "image": ""
+      },
+      {
+        "name": "Adán y Eva",
+        "price": "€1500",
+        "variants": [
+          "Frutos Rojos",
+          "Maracuyá Piña",
+          "Gin & Tonic"
+        ],
+        "volume": "355ml",
+        "image": ""
+      },
+      {
+        "name": "Bamboo",
+        "price": "€1500",
+        "variants": [
+          "Daiquiri",
+          "Ron Cola"
+        ],
+        "volume": "350ml",
+        "image": ""
+      }
+    ],
+    "LIGA_DE_LA_CASA": [
+      {
+        "name": "Flor de Caña",
+        "price": "€1200",
+        "image": ""
+      },
+      {
+        "name": "Pepsi",
+        "price": "€1200",
+        "variants": [
+          "Original"
+        ],
+        "volume": "350ml",
+        "image": ""
+      }
+    ],
+    "SANGRÍA_Y_VINO_DE_LA_CASA": [
+      {
+        "name": "Copa de Sangría",
+        "price": "€1500",
+        "image": ""
+      },
+      {
+        "name": "Copa de vino",
+        "price": "€1500",
+        "image": ""
+      },
+      {
+        "name": "Contenda",
+        "price": "€2000",
+        "image": ""
+      },
+      {
+        "name": "BALDAZO",
+        "offer": "6X5",
+        "price": "¢6750",
+        "image": ""
+      }
+    ],
+    "REFRESCOS": [
+      {
+        "name": "Pepsi",
+        "price": "€1000",
+        "variants": [
+          "Original"
+        ],
+        "volume": "350ml",
+        "image": ""
+      },
+      {
+        "name": "Tropical",
+        "price": "€1000",
+        "variants": [
+          "Blanco Arándanos",
+          "Blanco Frutas Tropicales",
+          "Melocotón",
+          "Frutas"
+        ],
+        "volume": "355ml",
+        "image": ""
+      },
+      {
+        "name": "Pepsi",
+        "price": "€1200",
+        "variants": [
+          "Original"
+        ],
+        "volume": "600ml",
+        "image": ""
+      },
+      {
+        "name": "7 UP",
+        "price": "€1200",
+        "variants": [
+          "Original"
+        ],
+        "volume": "600ml",
+        "image": ""
+      },
+      {
+        "name": "H2OH",
+        "price": "€1200",
+        "variants": [
+          "Lima Limón",
+          "Toronja"
+        ],
+        "volume": "600ml",
+        "image": ""
+      },
+      {
+        "name": "Maximalta",
+        "price": "€1000",
+        "variants": [
+          "Original"
+        ],
+        "volume": "350ml",
+        "image": ""
+      },
+      {
+        "name": "Vitaloe",
+        "price": "€1500",
+        "image": ""
+      },
+      {
+        "name": "Maxxxx Energy",
+        "price": "€1500",
+        "variants": [
+          "Guaraná"
+        ],
+        "volume": "350ml",
+        "image": ""
+      },
+      {
+        "name": "Agua Cristal",
+        "price": "€1200",
+        "volume": "600ml",
+        "image": ""
+      }
+    ],
+    "TRAGO_DE_LA_CASA": [
+      {
+        "name": "Old Parr",
+        "price": "€2000",
+        "image": ""
+      }
+    ]
+  }
 }
